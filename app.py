@@ -33,13 +33,6 @@ def create_plot() -> None:
     names = list(sl.session_state['plot_data'].keys())
     values = list(sl.session_state['plot_data'].values())
 
-    print('\n\n')
-    print('_*_'*30)
-    print(f'plot_data: {sl.session_state["plot_data"]}')
-    print(f'plot_data type: {type(sl.session_state["plot_data"])}')
-    print('_*_'*30)
-    print('\n\n')
-
     plt.plot(range(1, len(sl.session_state['plot_data'])+1), values, '.')
     for i, j in zip(range(len(sl.session_state['plot_data'])), values):
         plt.annotate(str(round(j, 2)) + f'\n{names[i]}', xy=(i+1, j))
