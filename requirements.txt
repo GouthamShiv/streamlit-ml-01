@@ -1,5 +1,4 @@
 altair==4.2.0
-altgraph @ file:///System/Volumes/Data/SWE/Apps/DT/BuildRoots/BuildRoot2/ActiveBuildRoot/Library/Caches/com.apple.xbs/Sources/python3/python3-124/altgraph-0.17.2-py2.py3-none-any.whl
 attrs==22.2.0
 autopep8==1.7.0
 blinker==1.5
@@ -13,7 +12,6 @@ cycler==0.11.0
 decorator==5.1.1
 entrypoints==0.4
 fonttools==4.38.0
-future @ file:///System/Volumes/Data/SWE/Apps/DT/BuildRoots/BuildRoot2/ActiveBuildRoot/Library/Caches/com.apple.xbs/Sources/python3/python3-124/future-0.18.2-py3-none-any.whl
 gitdb==4.0.10
 GitPython==3.1.30
 idna==3.4
@@ -22,7 +20,6 @@ Jinja2==3.1.2
 joblib==1.2.0
 jsonschema==4.17.3
 kiwisolver==1.4.4
-macholib @ file:///System/Volumes/Data/SWE/Apps/DT/BuildRoots/BuildRoot2/ActiveBuildRoot/Library/Caches/com.apple.xbs/Sources/python3/python3-124/macholib-1.15.2-py2.py3-none-any.whl
 MarkupSafe==2.1.1
 matplotlib==3.6.2
 numpy==1.23.4
@@ -46,7 +43,6 @@ rich==13.0.1
 scikit-learn==1.1.2
 scipy==1.9.2
 semver==2.13.0
-six @ file:///System/Volumes/Data/SWE/Apps/DT/BuildRoots/BuildRoot2/ActiveBuildRoot/Library/Caches/com.apple.xbs/Sources/python3/python3-124/six-1.15.0-py2.py3-none-any.whl
 smmap==5.0.0
 streamlit==1.16.0
 threadpoolctl==3.1.0
